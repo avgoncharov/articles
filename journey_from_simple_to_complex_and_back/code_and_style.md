@@ -8,7 +8,7 @@
 
 ### Аннотация  
 В статье рассматриваются вопросы стилей кодирования с точки зрения выразительности програмного кода как текста. Рассматриваются ошибки возникающие из-за отступления от стандарта. 
-В качестве результата статьи, предлагается стандарт оформления кода, являющегося комбинацией элементов стандартов [Linux Kernel][1], [NASA][2], [Lockheed Martin][3] и [Microsoft][4].
+В качестве результата статьи, предлагается стандарт оформления кода, являющегося комбинацией элементов стандартов Linux Kernel[^1], NASA[^2], Lockheed Martin[^3] и Microsoft[^4].
 
 
 
@@ -27,10 +27,10 @@
 ### Что я считаю лучшим из всех стандартов  
 ### Заключение  
 ### Ссылки и литература:  
-[1]: https://www.kernel.org/doc/html/v4.10/process/coding-style.html
-[2]: http://www.stroustrup.com/JSF-AV-rules.pdf
-[3]: https://ntrs.nasa.gov/search.jsp?R=20080039927
-[4]: https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines
-[5]: Мартине А. Основы обшей лингвистики \[в:\] Новое в лингвистике. – М., 1963
+[^1]: https://www.kernel.org/doc/html/v4.10/process/coding-style.html
+[^2]: http://www.stroustrup.com/JSF-AV-rules.pdf
+[^3]: https://ntrs.nasa.gov/search.jsp?R=20080039927
+[^4]: https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines
+[^5]: Мартине А. Основы обшей лингвистики \[в:\] Новое в лингвистике. – М., 1963
 
 
