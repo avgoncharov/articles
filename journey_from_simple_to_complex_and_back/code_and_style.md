@@ -14,6 +14,14 @@
 Стандарты кодирования, Code Style Guides.  
 
 ### Введение  
-
+### Распространненые ошибки и их причины  
+### Существующие стандарты кодирования  
+### Что я считаю лучшим из всех стандартов  
+### Заключение  
+### Ссылки и литература:  
+1. https://www.kernel.org/doc/html/v4.10/process/coding-style.html
+2. http://www.stroustrup.com/JSF-AV-rules.pdf
+3. https://ntrs.nasa.gov/search.jsp?R=20080039927
+4.
 
 
