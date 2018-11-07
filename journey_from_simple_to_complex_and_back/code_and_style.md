@@ -28,9 +28,9 @@
 ### Заключение  
 ### Ссылки и литература:  
 <a class='anchor' id='1'>1</a>. https://www.kernel.org/doc/html/v4.10/process/coding-style.html  
-<a class='anchor' id='2'>2</a>. http://www.stroustrup.com/JSF-AV-rules.pdf
-<a class='anchor' id='3'>3</a>. https://ntrs.nasa.gov/search.jsp?R=20080039927
-<a class='anchor' id='4'>4</a>. https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines
-<a class='anchor' id='5'>5</a>. Мартине А. Основы обшей лингвистики \[в:\] Новое в лингвистике. – М., 1963
+<a class='anchor' id='2'>2</a>. http://www.stroustrup.com/JSF-AV-rules.pdf  
+<a class='anchor' id='3'>3</a>. https://ntrs.nasa.gov/search.jsp?R=20080039927  
+<a class='anchor' id='4'>4</a>. https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines  
+<a class='anchor' id='5'>5</a>. Мартине А. Основы обшей лингвистики \[в:\] Новое в лингвистике. – М., 1963  
 
 
