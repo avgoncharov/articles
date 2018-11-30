@@ -23,7 +23,7 @@
 class DoStep
 {
 //...
-        public voi Turtle(int marsSunXyz)
+        public void Turtle(int marsSunXyz)
         {
             //....
         }
@@ -35,7 +35,7 @@ class DoStep
 class Turtle
 {
 //...
-        public voi DoStep(int stepLength)
+        public void DoStep(int stepLength)
         {
             //....
         }
