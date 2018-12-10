@@ -91,7 +91,7 @@ const в объявлении переменных,
 <a class='anchor' id='9'>9</a>. <a href="https://www.ozon.ru/context/detail/id/4187085/">Идеальный код / Под ред. Энди Орам, Грегори Уилсон. – Питер, 2009.</a>  
 <a class='anchor' id='10'>10</a>. <a href="https://www.ozon.ru/context/detail/id/4187085/">Мартин Фаулер, Кент Бек, Джон Брант, Дон Робертс Рефакторинг. Улучшение проекта существующего кода / Вильямс, 2017.</a>  
 <a class='anchor' id='11'>11</a>. <a href="https://youtu.be/vSd_0zGxsIU">Allard Buijze Pragmatic Event-Driven Microservices / GOTO 2018</a>   
-<a class='anchor' id='12'>12</a>. <a href="https://docs.microsoft.com/ru-ru/dotnet/csharp/language-reference/keywords/const">const / MSDN</a> 
+<a class='anchor' id='12'>12</a>. <a href="https://docs.microsoft.com/ru-ru/dotnet/csharp/language-reference/keywords/const">const / MSDN</a>   
 <a class='anchor' id='13'>13</a>. <a href="https://www.ozon.ru/context/detail/id/140145915/">Билл Вагнер Эффективное программирование на C#. 50 способов улучшения кода / Вильямс, 2017.</a> 
 
 
