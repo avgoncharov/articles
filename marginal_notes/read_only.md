@@ -68,7 +68,7 @@ public static class PhysConstants
 { 
 	public const double G = 6.674e-11; // m^3 kg^(-1) s^(-2)
 	public const double h = 6.626e-34; // J·s
-    // и т.д.
+	// и т.д.
 }
 
 //---Код клиента до компиляции:
@@ -137,6 +137,8 @@ struct NotConst
 	}
 }
 ```
+При каждом обращении к полю Date у объекта этой структуры, клиент будет получать новое значение.
+
 
 
 
