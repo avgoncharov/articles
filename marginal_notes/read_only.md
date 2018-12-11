@@ -66,7 +66,7 @@ if("SomeValue" = y) {...
 //----Ваша библиотека, ваш класс констант:
 public static class PhysConstants
 { 
-    public const double G = 6.674e-11; // m^3 kg^-1 s^-2
+    public const double G = 6.674e-11; // m^3 kg^(-1) s^(-2)
     public const double h = 6.626e-34; // J·s
     // и т.д.
 }
@@ -83,7 +83,7 @@ var gF = 6.674e-11 * m1*m2/(r*r);
 //----Ваша библиотека, ваш класс констант:
 public static class PhysConstants
 { 
-    public static readonly double G = 6.674e-11; // m^3 kg^-1 s^-2
+    public static readonly double G = 6.674e-11; // m^3 kg^(-1) s^(-2)
     public static readonly double h = 6.626e-34; // J·s
     // и т.д.
 }
