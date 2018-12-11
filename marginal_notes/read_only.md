@@ -110,7 +110,7 @@ Console.WriteLine(b); // 2012-02-01 -> в b было сохранено ново
 
 Типы неизменяемых объектов могут быть определены пользователем:
 ```C#
-readonly struct Event
+struct Event
 {
     public readonly EventType EventType;
     public readonly string Content;
@@ -124,6 +124,22 @@ readonly struct Event
     }
 }
 ```
+
+Начиная с C# v7.2 для выражения константности структуры доступна конструкция `readonly struct`[<sup>16</sup>](#16), который гарантирует что все поля в структуре должны быть помечены как `readonly`.   
+У тех кто много пишет на C#, и является сторонником ООП, вид открытых полей должен вызвать дискомфорт. Тем более что в C# есть автосвойства "только для чтения". Но, с моей точки зрения, при определении иммутабельных типов, если мы открываем доступ к состоянию, то открытыми должны быть именно поля, а не автосвойства. Если открыты поля, и они `readonly`, то дополнительных исследований кода типа не требуется. Если же доступ к состоянию оссуществляется через свойства "только для чтения", то необходимо посмотреть, что же эти свойства в действительности делают.
+Ниже приведен пример, где структура с единственным свойством "только для чтения" не является неизменной:
+```C#
+struct NotConst
+{
+	public DateTime Date
+	{
+    		get{
+			return DateTime.Now;
+		}
+	}
+}
+```
+
 
 
 
@@ -156,6 +172,8 @@ const в объявлении переменных,
 <a class='anchor' id='12'>12</a>. <a href="https://docs.microsoft.com/ru-ru/dotnet/csharp/language-reference/keywords/const">const / MSDN</a>   
 <a class='anchor' id='13'>13</a>. <a href="https://www.ozon.ru/context/detail/id/140145915/">Билл Вагнер Эффективное программирование на C#. 50 способов улучшения кода / Вильямс, 2017.</a>   
 <a class='anchor' id='14'>14</a>. <a href="https://www.ozon.ru/context/detail/id/147107976/">Эрик Эванс Предметно-ориентированное проектирование (DDD). Структуризация сложных программных систем / Вильямс, 2018.</a>   
-<a class='anchor' id='15'>15</a>. <a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D1%8F%D0%B5%D0%BC%D1%8B%D0%B9_%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82">(Wiki) Неизменяемый объект</a> 
+<a class='anchor' id='15'>15</a>. <a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D1%8F%D0%B5%D0%BC%D1%8B%D0%B9_%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82">(Wiki) Неизменяемый объект</a>   
+<a class='anchor' id='16'>16</a>. <a href="
+https://docs.microsoft.com/ru-ru/dotnet/csharp/whats-new/csharp-7-2">Новые возможности C# 7.2</a> 
 
 
