@@ -97,6 +97,7 @@ public static class PhysConstants
 Лично для меня не статическое поле, ссылочного типа, помеченное как `readonly`, говорит лишь о том, что, с вероятностью 99%, это просто поле инициализируемое в конструкторе, не более того. Ни о какой константности речи не идет.
 
 ##### Ключевое слово readonly применительно к структурам.
+Следующий уровень асбтракции в выражении незименности, являются так называемые объекты-значения[<sup>14</sup>](#14), или иммутабельные объекты.
 
 
 
@@ -128,6 +129,7 @@ const в объявлении переменных,
 <a class='anchor' id='10'>10</a>. <a href="https://www.ozon.ru/context/detail/id/4187085/">Мартин Фаулер, Кент Бек, Джон Брант, Дон Робертс Рефакторинг. Улучшение проекта существующего кода / Вильямс, 2017.</a>  
 <a class='anchor' id='11'>11</a>. <a href="https://youtu.be/vSd_0zGxsIU">Allard Buijze Pragmatic Event-Driven Microservices / GOTO 2018</a>   
 <a class='anchor' id='12'>12</a>. <a href="https://docs.microsoft.com/ru-ru/dotnet/csharp/language-reference/keywords/const">const / MSDN</a>   
-<a class='anchor' id='13'>13</a>. <a href="https://www.ozon.ru/context/detail/id/140145915/">Билл Вагнер Эффективное программирование на C#. 50 способов улучшения кода / Вильямс, 2017.</a> 
+<a class='anchor' id='13'>13</a>. <a href="https://www.ozon.ru/context/detail/id/140145915/">Билл Вагнер Эффективное программирование на C#. 50 способов улучшения кода / Вильямс, 2017.</a>   
+<a class='anchor' id='14'>14</a>. <a href="https://www.ozon.ru/context/detail/id/147107976/">Эрик Эванс Предметно-ориентированное проектирование (DDD). Структуризация сложных программных систем / Вильямс, 2018.</a> 
 
 
