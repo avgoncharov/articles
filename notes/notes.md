@@ -1,9 +1,15 @@
 ------------------------------------------------------------
-Всегда для константных свойств использовать запись вида:
-`public bool B => false;`
-вместо `public bool A { get; } = false;`.
+Use constructions like  
+` (a) public SomeType A { get; } = new SomeType();`
+instead of   
+`(b) public SomeType B => new SomeType();`  
+in cases where SomeType is not an elementary type, otherwise use (b) instead of (a).
+If SomeType is not an elementary then in case (a) you'l have only one instance of it, in case (b) new instance will be created in every of property calling. 
+
+But, if SomeType is an elementary then in case (a) your class/struct will be on one field bigger, then in case (b), and it's not necessary.
+
 		
-Код
+Code
 ```C#
 public class Class1
 	{
@@ -11,7 +17,7 @@ public class Class1
 		public bool B => false;
 	}
 ```
-Компилируется в:
+compiles into:
 ```IL
 .class public auto ansi beforefieldinit 
   ClassLibrary2.Class1
