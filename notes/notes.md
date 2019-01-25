@@ -1,7 +1,7 @@
 ------------------------------------------------------------
-Use constructions like  
-` (a) public SomeType A { get; } = new SomeType();`
-instead of   
+Use constructions like    
+` (a) public SomeType A { get; } = new SomeType();`  
+instead of     
 `(b) public SomeType B => new SomeType();`  
 in cases where SomeType is not an elementary type, otherwise use (b) instead of (a).
 If SomeType is not an elementary then in case (a) you'l have only one instance of it, in case (b) new instance will be created in every of property calling. 
